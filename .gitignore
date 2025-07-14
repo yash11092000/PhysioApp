@@ -1,0 +1,20 @@
+# Build results
+bin/
+obj/
+
+# VS cache and settings
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider/JetBrains
+.idea/
+
+# Logs
+*.log
+
+# Secrets
+appsettings.*.json
+!appsettings.Development.json
