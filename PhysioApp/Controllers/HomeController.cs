@@ -54,7 +54,7 @@ namespace PhysioApp.Controllers
             int result = await _userRepository.EditUsers(user);
             if (result > 0)
             {
-                return Ok("Updated Successyully");
+                return Ok("Updated Successfully");
             }
             return BadRequest("error Occured");
         }
